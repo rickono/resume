@@ -244,7 +244,10 @@ const Home: NextPage = () => {
             technologies. Here is a sample of some of my recent personal
             projects!
           </p>
-          <ProjectGallery setHighlighted={setHighlighted} />
+          <ProjectGallery
+            setHighlighted={setHighlighted}
+            highlighted={highlighted}
+          />
         </div>
         <Technologies highlighted={highlighted} />
       </div>

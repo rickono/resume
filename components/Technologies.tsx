@@ -55,7 +55,7 @@ const IconWrap = ({
 const Technologies = ({ highlighted }: Props) => {
   return (
     <div className={styles.technologies}>
-      <h3>Technologies</h3>
+      <h3>Core Technologies</h3>
       <div>
         <p>Frontend</p>
         <div className={styles.icons}>
